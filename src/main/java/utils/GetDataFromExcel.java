@@ -36,6 +36,7 @@ public class GetDataFromExcel {
 			}
 		}
 
+		System.out.println("hello");
 		return array3;
 
 	}
