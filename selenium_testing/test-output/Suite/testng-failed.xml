@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="6" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="methods">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.test.com.test.Runner_class"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test(failed)" parallel="methods">
+    <classes>
+      <class name="com.test.com.test.Runner_class">
+        <methods>
+          <include name="efigt_select" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="setUpBrowser"/>
+        </methods>
+      </class> <!-- com.test.com.test.Runner_class -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
