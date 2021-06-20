@@ -18,6 +18,7 @@ public class First_class {
 	public static void fg() {
 		
 		System.out.println(f);
+		System.out.println("hgjfjfjf");
 	}	
 	
 	
